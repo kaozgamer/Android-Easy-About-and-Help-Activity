@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 /**
  * About Activity for the About Activity fragment.
@@ -22,12 +21,7 @@ public class AboutActivity extends AppCompatActivity {
         super.onPostCreate(savedInstanceState);
         Toolbar toolbar;
 
-        setContentView(R.layout.fragment_empty_toolbar);
-
-        // We want the toolbar so that the user can go back to the MainActivity
-//        toolbar = (Toolbar) findViewById(R.id.toolbar);
-
-//        setSupportActionBar(toolbar);
+        setContentView(R.layout.fragment_empty);
 
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -36,13 +30,6 @@ public class AboutActivity extends AppCompatActivity {
 
         // Set the new view
         getFragmentManager().beginTransaction().replace(R.id.content_frame, new AboutFragment()).commit();
-
-//        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                finish();
-//            }
-//        });
     }
 
     @Override
