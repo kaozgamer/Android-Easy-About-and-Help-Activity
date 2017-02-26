@@ -4,18 +4,18 @@
     <!-- pref_help.xml -->
     <string name="eaf_pref_app">App</string>
     <string name="eaf_pref_description">Description</string>
-    <string name="eaf_pref_description_summary">App that allows you to easily open your Xperia\'s service menu with a single tap instead of entering a long combination of numbers. The service menu allows you to view device configuration, software configuration and to perform tests of the various features available on your device.</string>
+    <string name="eaf_pref_description_summary">App description</string>
     <string name="eaf_pref_rate">Rate This App</string>
     <string name="eaf_pref_rate_summary">Go to Google Play Store</string>
     <string name="eaf_pref_source_code">Source Code</string>
     <string name="eaf_pref_version">Version</string>
-    <string name="eaf_pref_version_summary">2.0.0</string>
+    <string name="eaf_pref_version_summary">1.0.0</string>
     <string name="eaf_pref_github">View source code on Github</string>
 
     <!-- HelpActivity.java -->
-    <string name="eaf_email_bug_report_subject">Bug Report: Grade Calculator</string>
+    <string name="eaf_email_bug_report_subject">Bug Report: Your App Name</string>
     <string name="eaf_email_bug_report_text">What can I help you with?\n</string>
-    <string name="eaf_email_feedback_subject">Feedback: Grade Calculator</string>
+    <string name="eaf_email_feedback_subject">Feedback: Your App Name</string>
     <string name="eaf_email_feedback_text">What can I help you with?\n</string>
     <string name="eaf_email_intent_chooser">Select email application</string>
 

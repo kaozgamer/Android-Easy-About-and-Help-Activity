@@ -19,7 +19,6 @@ public class AboutActivity extends AppCompatActivity {
     @Override
     protected void onPostCreate(@Nullable Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
-        Toolbar toolbar;
 
         setContentView(R.layout.fragment_empty);
 
@@ -47,7 +46,7 @@ public class AboutActivity extends AppCompatActivity {
         } else if (item.getItemId() == R.id.action_help_report_problem) { // DId user click on the report bug button on the toolbar?
             Intent mailto = new Intent(Intent.ACTION_SEND);
             mailto.setType("message/rfc822");
-            mailto.putExtra(Intent.EXTRA_EMAIL, new String[]{"kaozgamerdev+grade_calculator@gmail.com"});
+            mailto.putExtra(Intent.EXTRA_EMAIL, new String[]{"youremail@gmail.com"});
             mailto.putExtra(Intent.EXTRA_SUBJECT, getResources().getString(R.string.eaf_email_bug_report_subject));
             mailto.putExtra(Intent.EXTRA_TEXT, getResources().getString(R.string.eaf_email_bug_report_text));
             startActivity(Intent.createChooser(mailto, getResources().getString(R.string.eaf_email_intent_chooser)));
@@ -57,7 +56,7 @@ public class AboutActivity extends AppCompatActivity {
         } else if (item.getItemId() == R.id.action_help_give_feedback) { // Did user click on the give feedback button on the toolbar?
             Intent mailto = new Intent(Intent.ACTION_SEND);
             mailto.setType("message/rfc822");
-            mailto.putExtra(Intent.EXTRA_EMAIL, new String[]{"kaozgamerdev+grade_calculator@gmail.com"});
+            mailto.putExtra(Intent.EXTRA_EMAIL, new String[]{"youremail@gmail.com"});
             mailto.putExtra(Intent.EXTRA_SUBJECT, getResources().getString(R.string.eaf_email_feedback_subject));
             mailto.putExtra(Intent.EXTRA_TEXT, getResources().getString(R.string.eaf_email_feedback_text));
             startActivity(Intent.createChooser(mailto, getResources().getString(R.string.eaf_email_intent_chooser)));

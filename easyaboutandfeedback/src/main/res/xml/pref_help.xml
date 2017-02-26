@@ -11,7 +11,7 @@
             android:title="@string/eaf_pref_rate">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://play.google.com/store/apps/details?id=com.thunderboltsoft.xperiaservicemenu" />
+                android:data="https://github.com/kaozgamer/Android-Easy-About-and-Help-Activity" />
         </Preference>
 
         <Preference
@@ -19,7 +19,7 @@
             android:title="@string/eaf_pref_source_code">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://github.com/kaozgamer/XperiaServiceMenu" />
+                android:data="https://github.com/kaozgamer/Android-Easy-About-and-Help-Activity" />
         </Preference>
 
         <Preference
