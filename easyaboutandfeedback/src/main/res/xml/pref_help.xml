@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/eaf_pref_app">
+        <Preference
+            android:summary="@string/eaf_pref_description_summary"
+            android:title="@string/eaf_pref_description" />
+
+        <Preference
+            android:summary="@string/eaf_pref_rate_summary"
+            android:title="@string/eaf_pref_rate">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://play.google.com/store/apps/details?id=com.thunderboltsoft.xperiaservicemenu" />
+        </Preference>
+
+        <Preference
+            android:summary="@string/eaf_pref_github"
+            android:title="@string/eaf_pref_source_code">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/kaozgamer/XperiaServiceMenu" />
+        </Preference>
+
+        <Preference
+            android:summary="@string/eaf_pref_version_summary"
+            android:title="@string/eaf_pref_version" />
+    </PreferenceCategory>
+</PreferenceScreen>
