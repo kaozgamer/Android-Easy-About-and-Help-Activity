@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 
 ext {
     bintrayRepo = 'android'
-    bintrayName = 'android-easy-help-feedback'
+    bintrayName = 'easy-help-feedback'
 
     publishedGroupId = 'com.kaozgamer.android'
     libraryName = 'android-easy-help-feedback'
@@ -13,11 +13,11 @@ ext {
     siteUrl = 'https://github.com/kaozgamer/Android-Easy-About-and-Help-Activity'
     gitUrl = 'https://github.com/kaozgamer/Android-Easy-About-and-Help-Activity.git'
 
-    libraryVersion = '0.9.4'
+    libraryVersion = '0.9.5'
 
     developerId = 'kaozgamer'
     developerName = 'Thushan Perera'
-    developerEmail = 'kaozgamer.gamer@gmail.com'
+    developerEmail = 'thushan.perera95@gmail.com'
 
     licenseName = 'The MIT License'
     licenseUrl = 'https://opensource.org/licenses/mit-license.php'
