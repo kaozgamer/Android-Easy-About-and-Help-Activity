@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EasyAboutandFeedback.iml" filepath="$PROJECT_DIR$/EasyAboutandFeedback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-easy-help-feedback/android-easy-help-feedback.iml" filepath="$PROJECT_DIR$/android-easy-help-feedback/android-easy-help-feedback.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/easy-about-and-feedback/easy-about-and-feedback.iml" filepath="$PROJECT_DIR$/easy-about-and-feedback/easy-about-and-feedback.iml" />
     </modules>
   </component>
 </project>

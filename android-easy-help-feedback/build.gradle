@@ -5,15 +5,15 @@ ext {
     bintrayName = 'android-easy-help-feedback'
 
     publishedGroupId = 'com.kaozgamer.android'
-    libraryName = 'easy-about-and-feedback'
-    artifact = 'easy-about-and-feedback'
+    libraryName = 'android-easy-help-feedback'
+    artifact = 'android-easy-help-feedback'
 
     libraryDescription = 'Provides an easy way of adding an activity to that app that handles all the help, about and/or feedback information you want to include.'
 
     siteUrl = 'https://github.com/kaozgamer/Android-Easy-About-and-Help-Activity'
     gitUrl = 'https://github.com/kaozgamer/Android-Easy-About-and-Help-Activity.git'
 
-    libraryVersion = '0.9.3'
+    libraryVersion = '0.9.4'
 
     developerId = 'kaozgamer'
     developerName = 'Thushan Perera'
