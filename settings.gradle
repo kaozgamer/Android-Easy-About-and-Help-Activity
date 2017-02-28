@@ -1,1 +1,1 @@
-include ':app', ':easyaboutandfeedback'
+include ':app', ':easy-about-and-feedback'
