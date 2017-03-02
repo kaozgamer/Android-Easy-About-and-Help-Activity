@@ -15,11 +15,4 @@
         android:orderInCategory="2"
         android:title="@string/eaf_action_give_feedback"
         app:showAsAction="ifRoom" />
-
-    <item
-        android:id="@+id/action_help_about"
-        android:orderInCategory="3"
-        android:title="@string/eaf_action_about"
-        app:showAsAction="never"
-        android:visible="false" />
 </menu>

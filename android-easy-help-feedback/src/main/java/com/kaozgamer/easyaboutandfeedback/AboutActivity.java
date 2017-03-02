@@ -52,7 +52,6 @@ public class AboutActivity extends AppCompatActivity {
             startActivity(Intent.createChooser(mailto, getResources().getString(R.string.eaf_email_intent_chooser)));
 
             return true;
-
         } else if (item.getItemId() == R.id.action_help_give_feedback) { // Did user click on the give feedback button on the toolbar?
             Intent mailto = new Intent(Intent.ACTION_SEND);
             mailto.setType("message/rfc822");
@@ -60,13 +59,6 @@ public class AboutActivity extends AppCompatActivity {
             mailto.putExtra(Intent.EXTRA_SUBJECT, getResources().getString(R.string.eaf_email_feedback_subject));
             mailto.putExtra(Intent.EXTRA_TEXT, getResources().getString(R.string.eaf_email_feedback_text));
             startActivity(Intent.createChooser(mailto, getResources().getString(R.string.eaf_email_intent_chooser)));
-
-            return true;
-
-        } else if (item.getItemId() == R.id.action_help_about) { // Did user click on the about button on the toolbar?
-            Intent intent = new Intent();
-            intent.setClassName(this, "com.thunderboltsoft.finalgradecalculator.activities.AboutActivity");
-            startActivity(intent);
 
             return true;
         }
