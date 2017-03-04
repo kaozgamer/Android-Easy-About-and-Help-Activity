@@ -1,8 +1,9 @@
 apply plugin: 'com.android.application'
 
+//noinspection GroovyMissingReturnStatement
 android {
     compileSdkVersion 25
-    buildToolsVersion "24.0.0"
+    buildToolsVersion '25.0.0'
     defaultConfig {
         applicationId "com.thunderboltsoft.easyaboutandfeedback"
         minSdkVersion 14
@@ -17,6 +18,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    return void
 }
 
 dependencies {

@@ -13,5 +13,5 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go to menu -> 'About &amp; Feedback' to see it in action" />
+        android:text="@string/app_description" />
 </RelativeLayout>

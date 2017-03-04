@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Easy About and Feedback</string>
     <string name="about_and_feedback"><![CDATA[About & Feedback]]></string>
+    <string name="app_description"><![CDATA[Go to menu -> \'About & Feedback\' to see it in action]]></string>
 </resources>

@@ -3,6 +3,7 @@ package com.kaozgamer.easyaboutandfeedback;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -52,12 +53,16 @@ public class AboutActivity extends AppCompatActivity {
 
             return true;
         } else if (item.getItemId() == R.id.action_help_give_feedback) { // Did user click on the give feedback button on the toolbar?
-            Intent mailto = new Intent(Intent.ACTION_SEND);
-            mailto.setType("message/rfc822");
-            mailto.putExtra(Intent.EXTRA_EMAIL, new String[]{"youremail@gmail.com"});
-            mailto.putExtra(Intent.EXTRA_SUBJECT, getResources().getString(R.string.eaf_email_feedback_subject));
-            mailto.putExtra(Intent.EXTRA_TEXT, getResources().getString(R.string.eaf_email_feedback_text));
-            startActivity(Intent.createChooser(mailto, getResources().getString(R.string.eaf_email_intent_chooser)));
+//            Intent mailto = new Intent(Intent.ACTION_SEND);
+//            mailto.setType("message/rfc822");
+//            mailto.putExtra(Intent.EXTRA_EMAIL, new String[]{"youremail@gmail.com"});
+//            mailto.putExtra(Intent.EXTRA_SUBJECT, getResources().getString(R.string.eaf_email_feedback_subject));
+//            mailto.putExtra(Intent.EXTRA_TEXT, getResources().getString(R.string.eaf_email_feedback_text));
+//            startActivity(Intent.createChooser(mailto, getResources().getString(R.string.eaf_email_intent_chooser)));
+
+            Intent intent = new Intent();
+            intent.setClassName(this, "com.kaozgamer.easyaboutandfeedback.SendFeedbackActivity");
+            startActivity(intent);
 
             return true;
         }

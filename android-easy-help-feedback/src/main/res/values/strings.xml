@@ -23,4 +23,7 @@
     <string name="eaf_action_report_problem">Report a Problem</string>
     <string name="eaf_action_give_feedback">Give Feedback</string>
     <string name="eaf_action_about">About</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
